@@ -1,0 +1,29 @@
+{
+    "movies": [
+      {
+        "title": "Prison Break",
+        "director": "Paul Scheuring",
+        "release_year": 2005,
+        "genre": "Action"
+      },
+      {
+        "title": "Breaking Bad",
+        "director": "Vince Gilligan",
+        "release_year": 2008,
+        "genre": "Drama"
+      },
+      {
+        "title": "Game of Thrones",
+        "director": "David Benioff, D.B. Weiss",
+        "release_year": 2011,
+        "genre": "Fantasy"
+      },
+      {
+        "title": "Dexter",
+        "director": "James Manos Jr.",
+        "release_year": 2006,
+        "genre": "Crime"
+      }
+    ]
+  }
+  

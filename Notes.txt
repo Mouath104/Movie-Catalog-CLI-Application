@@ -1,0 +1,1 @@
+##There is an issue, it loges the data from the file and keep going, ignoring the function as it's async.
