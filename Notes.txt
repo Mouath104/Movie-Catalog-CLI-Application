@@ -1,1 +1,7 @@
-##There is an issue, it loges the data from the file and keep going, ignoring the function as it's async.
+# usage
+ - install the packages.
+ - run : node UserInteraction.js to start the app.
+ 
+# Issues
+ - There is an issue, it loges the data from the file and keep going, ignoring the function as it's async.
+ - There is redundency insertnin when trying to insert the new movie data.

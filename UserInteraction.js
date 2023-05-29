@@ -1,5 +1,5 @@
 //User Interaction
-const {LogMovie} = require('./fileHandler') //Logs Movies from JSON file
+const {LogMovie,AddMovie} = require('./fileHandler') //Logs Movies from JSON file
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
@@ -27,10 +27,11 @@ function Menu(){
         if(choice==="1"){ //there is an issue, it loges the data from the file and keep going, ignoring the function as it's async.
             LogMovie()
             // console.log("1.Display Movie Catalog.\n")
-            Menu()
+            // Menu() // i was trying to make it looping
         }else if(choice==="2"){
-            console.log("2.Add New Movie.\n")
-            Menu()
+            // console.log("2.Add New Movie.\n")
+            AddMovie()
+            // Menu()
         }else if(choice==="3"){
             console.log("3.Update Movie Details\n")
             Menu()

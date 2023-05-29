@@ -1,29 +1,58 @@
 {
-    "movies": [
-      {
-        "title": "Prison Break",
-        "director": "Paul Scheuring",
-        "release_year": 2005,
-        "genre": "Action"
-      },
-      {
-        "title": "Breaking Bad",
-        "director": "Vince Gilligan",
-        "release_year": 2008,
-        "genre": "Drama"
-      },
-      {
-        "title": "Game of Thrones",
-        "director": "David Benioff, D.B. Weiss",
-        "release_year": 2011,
-        "genre": "Fantasy"
-      },
-      {
-        "title": "Dexter",
-        "director": "James Manos Jr.",
-        "release_year": 2006,
-        "genre": "Crime"
-      }
-    ]
-  }
-  
+  "movies": [
+    {
+      "title": "Prison Break",
+      "director": "Paul Scheuring",
+      "release_year": 2005,
+      "genre": "Action"
+    },
+    {
+      "title": "Breaking Bad",
+      "director": "Vince Gilligan",
+      "release_year": 2008,
+      "genre": "Drama"
+    },
+    {
+      "title": "Game of Thrones",
+      "director": "David Benioff, D.B. Weiss",
+      "release_year": 2011,
+      "genre": "Fantasy"
+    },
+    {
+      "title": "Dexter",
+      "director": "James Manos Jr.",
+      "release_year": 2006,
+      "genre": "Crime"
+    },
+    {
+      "title": "asd",
+      "director": "asd",
+      "release_year": null,
+      "genre": "sa"
+    },
+    {
+      "title": "dsa",
+      "director": "sad",
+      "release_year": null,
+      "genre": "asd"
+    },
+    {
+      "title": "asd",
+      "director": "asd",
+      "release_year": null,
+      "genre": "sss"
+    },
+    {
+      "title": "asd",
+      "director": "asd",
+      "release_year": null,
+      "genre": "asd"
+    },
+    {
+      "title": "kljklp",
+      "director": "ghj",
+      "release_year": null,
+      "genre": "fdg"
+    }
+  ]
+}
