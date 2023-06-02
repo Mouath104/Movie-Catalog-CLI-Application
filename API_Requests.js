@@ -26,6 +26,8 @@ async function FetchMovies (){
               }
             });
           });
+
+    }catch(Err){
         console.log("Error Fetching Movies: ",Err)
     }
     
