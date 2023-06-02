@@ -1,5 +1,6 @@
 //User Interaction
-const {LogMovie,AddMovie} = require('./fileHandler') //Logs Movies from JSON file
+const {LogMovie,AddMovie,UpdateMovie,DeleteMovie,MovieSearching} = require('./fileHandler') //Logs Movies from JSON file
+const {FetchMovies} = require('./API_Requests')
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
@@ -15,10 +16,13 @@ function Menu(){
         "2.Add New Movie.\n", //use async/await or promises when writing to files
         "3.Update Movie Details\n", //use async/await or promises when updating to files
         "4.Delete Movie\n", //use async/await or promises when deleting to files
-        "5.Search and Filter\n", // use "fetch" to fetch addtional data - use OMDB API
+        "5.Search and Filter\n", //use search by either title,genre,date realse and director
         "6.Fetch addtional Movie Data\n", //use async/await or promises
         "---------------------------------------\n",
         "7.Quit(or q|Q)\n",
+        "---------------------------------------\n",
+        "Note1: Don't worry of the duplicated Chars in CLI, it won't e stored that way.(use ur common sense :D)",
+        "Note2: After Every choice, end the App manally by CTRL+C (i tried my best)",
         "---------------------------------------\n",
 
     )
@@ -33,17 +37,21 @@ function Menu(){
             AddMovie()
             // Menu()
         }else if(choice==="3"){
-            console.log("3.Update Movie Details\n")
-            Menu()
+            UpdateMovie()
+            // console.log("3.Update Movie Details\n")
+            // Menu()
         }else if(choice==="4"){
-            console.log("4.Delete Movie\n")
-            Menu()
+            DeleteMovie()
+            // console.log("4.Delete Movie\n")
+            // Menu()
         }else if(choice==="5"){
-            console.log("5.Search and Filter\n")
-            Menu()
+            MovieSearching()
+            // console.log("5.Search and Filter\n")
+            // Menu()
         }else if(choice==="6"){
-            console.log("6.Fetch addtional Movie Data\n")
-            Menu()
+            FetchMovies()
+            // console.log("6.Fetch addtional Movie Data\n")
+            // Menu()
         }else if(choice==="7"||choice.toLowerCase()==="q"){
             rl.close();
         }else{
