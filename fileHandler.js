@@ -5,7 +5,7 @@ function LogMovie(){
             if(err){
                 console.log(err)
             }
-            console.log(data)
+            console.log(data,'\n\n')
         }
     )
 }
